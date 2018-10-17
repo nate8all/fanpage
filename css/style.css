@@ -19,7 +19,35 @@ a {
 }
 
 .header {
-    font-size: 50px; 
+    font-size: 60px; 
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.footer {
+    display: flex;
+    justify-content:space-around;
+}
+
+.header {
+    display: flex;
+    justify-content:center;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    margin: 30px;
+    font-size:20px;
+}
+
+.thumbnail-image {
+    width: 75%;
+}
+.gallery { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-photo {
+    width: 50%;
+}
