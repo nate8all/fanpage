@@ -11,7 +11,7 @@ a {
 }
 
 .main {
-    height: 100%;
+    height: 85%;
 }
 .social-image{
     width: 30px;
@@ -31,6 +31,7 @@ a {
 .header {
     display: flex;
     justify-content:center;
+    text-shadow: 10px 8px 6px #95BA40;
 }
 
 .navbar {
@@ -41,7 +42,7 @@ a {
 }
 
 .thumbnail-image {
-    width: 75%;
+    width: 300px;
 }
 .gallery { 
     display: flex;
@@ -50,4 +51,36 @@ a {
 
 #main-photo {
     width: 50%;
+}
+.aboutMain {
+    display: flex;
+}
+
+.leftPane {
+    width: 50%;
+}
+
+.rightPane {
+    width: 50%;
+}
+
+#about-photo {
+    width: 85%;
+    border-width: 10px;
+    border-color: #95BA40;
+    border-style: solid;
+}
+
+#aboutP {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+
+.content {
+    padding: 20px;
+}
+p, #aboutP, h1 {
+    color:#95BA40;
 }
